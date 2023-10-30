@@ -87,11 +87,11 @@ a{
     padding: .5em;
 }
 
-/* Add this to your CSS stylesheet */
+
 .logout-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: transparent; /* Set your desired button background color */
+    background-color: transparent; 
     color: #fff;
     text-decoration: none;
     border: none;
@@ -101,5 +101,5 @@ a{
 }
 
 .logout-button:hover {
-    background-color: #313438; /* Change the color when hovering */
+    background-color: #313438; 
 }
