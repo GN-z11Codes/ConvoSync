@@ -1,0 +1,105 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: #fff;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:#313438;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background: #75a85e;
+    padding: 2em 0;
+    align-items: center;
+}
+
+.contact-search{
+    font-size: 1.2em;
+    padding: .3em;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+i{
+    font-size: 1.5em;
+}
+
+.contact-name{
+    font-size: 1.2em;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr{
+    border: 2px solid #494a4b;
+}
+
+.list__item{
+    list-style: none;
+}
+
+.relationship{
+    width: 6em;
+    text-align: center;
+    padding: .4em .5em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: #75a85e;
+    font-size: .8em;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+}
+
+.contact-section:hover{
+    background-color: #48494a;
+}
+
+.text{
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.icon-gradient{
+    background: #75a85e;
+    border-radius: 100px;
+    padding: .5em;
+}
+
+/* Add this to your CSS stylesheet */
+.logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; /* Set your desired button background color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #313438; /* Change the color when hovering */
+}
