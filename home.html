@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -9,82 +9,230 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConvoSync</title>
-    <link rel="stylesheet" href="home.css">
 </head>
 <body>
     <div class="container">
-    <header>
-        <h2 class="logo">
-        <i class="fa-solid fa-address-book"></i> ConvoSync
-        </h2>
-        <nav class="navigation">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-        </nav>
-    </header>
-
-    <div class="wrapper">
-        
-        <div class="form-box login">
-            <h2>Login</h2>
-            <form action="index.html">
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label>Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox"> Remember me</label>
-                    <a href="#">Forgot Password?</a>
-                </div>
-                <button type="submit" class="btn">Login</button>
-                <div class="login-register">
-                    <p>Don't have an account?<a href="#" class="register-link">Sign Up</a></p>
-                </div>
+        <header class="header">
+            <form class="search-bar">
+                <input type="search-name" class="contact-search" name="search-area" placeholder="Search">
             </form>
-        </div>
 
-        <div class="form-box register">
-            <h2>Sign Up</h2>
-            <form action="index.html">
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="person"></ion-icon></span>
-                    <input type="text" required>
-                    <label>Username</label>
-                </div>
+            <a href="edit.html">
+            <i class="fa-solid fa-user-plus"></i>
+            </a>
 
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
+            <a href="index.html" class="logout-button">Log Out</a>
+        </header>
+        <section class="contacts-library">
+            <ul class="contact-list">
+                
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Yungeen Ace</p>
+                        <p class="relationship">Friend</p>
+                    </li>
 
-                <div class="input-box">
-                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                    <input type="password" required>
-                    <label>Password</label>
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
                 </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox">I agree to the terms & conditions</label>
-    
+                 </a>
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Chief Keef</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
                 </div>
-                <button type="submit" class="btn">Register</button>
-                <div class="login-register">
-                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </a>
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Kendrick Lamar</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
                 </div>
-            </form>
-        </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Metro Boomin</p>
+                        <p class="relationship">Work</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">JaydaYoungan</p>
+                        <p class="relationship">Family</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Pi'erre Bourne</p>
+                        <p class="relationship">Work</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Sonny Digital</p>
+                        <p class="relationship">Work</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Playboi Carti</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Soulja Boy</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Yeat</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Julio Foolio</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">Gucci Mane</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+
+                <hr>
+
+                <a href="profile.html">
+                <div class="contact-section">
+                    <li class="list__item">
+                        <p class="contact-name">MexikoDro</p>
+                        <p class="relationship">Friend</p>
+                    </li>
+
+                    <li class="list__item">
+                        <i class="fa-solid fa-phone icon-gradient"></i>
+                        <i class="fa-solid fa-message text icon-gradient"></i>
+                    </li>
+                </div>
+            </a>
+                <hr>
+
+            </ul>
+        </section>
     </div>
-
-    </div>
-    <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
